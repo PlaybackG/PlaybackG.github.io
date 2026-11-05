@@ -711,7 +711,7 @@ main { position: relative; z-index: 2; }
 }
 .portrait__rgb {
   position: absolute; inset: 14px; border-radius: 12px; pointer-events: none;
-  background: url(../assets/img/franklin.jpg) center / cover;
+  background: url(../assets/img/id.svg) center / cover;
   mix-blend-mode: screen;
   filter: grayscale(1) contrast(1.6) brightness(.6);
   opacity: 0;
