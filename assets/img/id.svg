@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff3d6"/>
+      <stop offset=".45" stop-color="#d6b26a"/>
+      <stop offset="1" stop-color="#6d5222"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".42" r=".6">
+      <stop offset="0" stop-color="#2a2418"/>
+      <stop offset="1" stop-color="#07070a"/>
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#d6b26a" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="750" fill="url(#glow)"/>
+  <rect width="600" height="750" fill="url(#grid)"/>
+  <circle cx="300" cy="330" r="190" fill="none" stroke="url(#gold)" stroke-opacity=".35" stroke-width="1.5"/>
+  <circle cx="300" cy="330" r="150" fill="none" stroke="url(#gold)" stroke-opacity=".2" stroke-width="1" stroke-dasharray="4 8"/>
+  <text x="300" y="385" text-anchor="middle" font-family="Unbounded, Arial Black, sans-serif" font-weight="900" font-size="170" fill="url(#gold)" letter-spacing="-6">ДД</text>
+  <text x="300" y="600" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="22" fill="#d6b26a" fill-opacity=".75" letter-spacing="6">INFRA · SECURITY · BUILD</text>
+</svg>
